@@ -1,2 +1,3 @@
-# Inovart
-Aplicação web para voltada ao mercado de designer em porcelanatos.
+<h1 align="center">
+  <img alt="Inovart" title="Logo Inovart" src="public/assets/images/inovarte-logo.png" style="background: #333;" />
+</h1>
