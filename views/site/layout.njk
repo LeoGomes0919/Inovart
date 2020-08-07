@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" href="/_cdn/css/reset.css">
+    <link rel="stylesheet" href="/_cdn/css/styles.css">
+    <link rel="stylesheet" href="/_cdn/css/buttons-inputs.css">
+    {% block head %}
+      <title>Inovarte | Home</title>
+    {% endblock head %}
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="main-header-content">
+        <a href="/" class="logo"></a>
+        <nav class="main-header-content-menu">
+          <ul>
+            <li>
+              <a href="/products">Produtos</a>
+            </li>
+            <li>
+              <a href="/catalog">Catalogo de Porcelanatos</a>
+            </li>
+            <li>
+              <a href="/about">Quem somos</a>
+            </li>
+          </ul>
+          {% block form_filter %}{% endblock form_filter %}
+
+          <ul>
+          {% include 'parts/shopping-cart.njk' %}
+            <a href="/login">
+              <i class="material-icons">account_circle</i>
+              <p>
+                <span>faça seu login</span>
+                <span>ou cadastre-se</span>
+              </p>
+            </a>
+          </ul>
+        </nav>
+        <div class="filter-mobile-view">
+          <div class="form-search">
+            <form action="/" method="post">
+              <input type="text" name="search" placeholder="Busque seu produto">
+            </form>
+          </div>
+        </div>
+        {% include 'parts/shopping-cart.njk' %}
+        <div class="mobile-icons-menu-header">
+          <input id="menu-hamburguer" type="checkbox">
+          <label for="menu-hamburguer">
+            <span class="hamburguer menu-mobile-obj"></span>
+          </label>
+        </div>
+      </div>
+    </header>
+    {% include "parts/mobile-menu.njk" %}
+
+    {% block content %}{% endblock content %}
+
+    {% block optin %}{% endblock optin %}
+    
+    <div class="footer-page">
+      <section class="main-footer">
+        <header>
+          <h1>Quer saber mais?</h1>
+        </header>
+        <article class="main-footer-our-pages">
+          <header>
+            <h2>Principais Páginas</h2>
+          </header>
+
+          <ul>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/products">Produtos</a>
+            </li>
+            <li>
+              <a href="/catalog">Catalogo de Porcelanatos</a>
+            </li>
+          </ul>
+        </article>
+
+        <article class="main-footer-links">
+          <header>
+            <h2>Links Úteis</h2>
+          </header>
+
+          <ul>
+            <li>
+              <a href="/about">Quem Somos</a>
+            </li>
+            <li>
+              <a href="#">Política de Privacidade</a>
+            </li>
+          </ul>
+        </article>
+
+        <article class="main-footer-about">
+          <header>
+            <h2>Sobre os Produtos</h2>
+          </header>
+          <p>Nossos produtos são feitos com a máxima qualidade possível, visando sempre o bem-estar dos nossos clientes e a satisfação.</p>
+        </article>
+      </section>
+      
+      <footer class="main-footer-rights">
+        <p>Copyright © 2020 Inovarte</p>
+      </footer>
+    </div>
+    <script src="../../_cdn/js/mobile-menu.js"></script>
+    <script src="../../_cdn/js/scripts.js"></script>
+  </body>
+</html>

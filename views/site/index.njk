@@ -1,0 +1,101 @@
+{% extends "site/layout.njk" %}
+
+{% block head %}
+  <title>Inovarte | Loja</title>
+{% endblock head %}
+
+{% block form_filter %}
+  {% include 'parts/filter.njk' %}
+{% endblock form_filter %}
+
+{% block content %}
+  <main>
+    <section class="slider">
+      <figure>
+        <img src="/assets/images/1.jpg">
+        <img src="/assets/images/2.jpeg">
+        <img src="/assets/images/3.jpeg">
+        <img src="/assets/images/4.jpeg">
+        <img src="/assets/images/1.jpg">
+      </figure>
+    </section>
+
+    <section class="main-products">
+      <header class="main-products-header">
+        <h1>
+          <i class="material-icons">fiber_new</i>
+          Produtos mais recentes
+        </h1>
+        <p>Aqui você encontra nossos produtos mais recentes.</p>
+      </header>
+
+      <article class="main-products-card">
+        <div>
+          <img src="/assets/images/1.jpg">
+        </div>
+        <h2>Product Name</h2>
+        <div class="main-products-content">
+          <p>Details product, width, height and weight</p>
+          <p>Details product, width, height and weight</p>
+          <p>Details product, width, height and weight</p>
+          <div class="action-products-card">
+            <button class="secondary">Detalhes</button>
+            <button class="primary">Orçamento</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="main-products-card">
+        <div>
+          <img src="/assets/images/2.jpeg">
+        </div>
+        <h2>Product Name</h2>
+        <div class="main-products-content">
+          <p>Details product, width, height and weight</p>
+          <p>Details product, width, height and weight</p>
+          <p>Details product, width, height and weight</p>
+          <div class="action-products-card">
+            <button class="secondary">Detalhes</button>
+            <button class="primary">Orçamento</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="main-products-card">
+        <div>
+          <img src="/assets/images/3.jpeg">
+        </div>
+        <h2>Product Name</h2>
+        <div class="main-products-content">
+          <p>Details product, width, height and weight</p>
+          <p>Details product, width, height and weight</p>
+          <p>Details product, width, height and weight</p>
+          <div class="action-products-card">
+            <button class="secondary">Detalhes</button>
+            <button class="primary">Orçamento</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="main-products-card">
+        <div>
+          <img src="/assets/images/4.jpeg">
+        </div>
+        <h2>Product Name</h2>
+        <div class="main-products-content">
+          <p>Details product, width, height and weight</p>
+          <p>Details product, width, height and weight</p>
+          <p>Details product, width, height and weight</p>
+          <div class="action-products-card">
+            <button class="secondary">Detalhes</button>
+            <button class="primary">Orçamento</button>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+{% endblock content %}
+
+{% block optin %}
+  {% include 'parts/optin.njk' %}
+{% endblock optin %}

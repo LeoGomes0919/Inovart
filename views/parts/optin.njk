@@ -1,0 +1,13 @@
+<section class="main-option">
+  <div class="main-option-content">
+    <header>
+      <h1>Não conseguiu encontrar o que procurava?</h1>
+      <p>Informe seu nome e telefone nos campos ao lado e clique em Ok!</p>
+    </header>
+    <form action="/" method="post">
+      <input type="text" id="name" name="contact_name" placeholder="Informe seu nome">
+      <input type="text" id="phone" maxlength="15" name="contact_phone" placeholder="Informe seu Telefone" onkeydown="Mask.apply(this, 'phone')">
+      <button type="submit" class="secondary">Ok!</button>
+    </form>
+  </div>
+</section>
