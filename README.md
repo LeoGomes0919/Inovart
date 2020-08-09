@@ -21,3 +21,35 @@
   
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
+
+<p align="center">
+  <a href="#inovart-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>
+</p>
+
+<br>
+
+<!-- <p align="center">
+  <img alt="Frontend" src="" width="100%">
+</a> -->
+
+## :inovart: Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Node.js](https://nodejs.org/en/)
+- [Nunjucks](https://mozilla.github.io/nunjucks/)
+
+## 💻 Projeto
+
+A Inovart é uma projeto densevolvido para empresas que trabalham com designer e artes feitas com porcelanatos, empresas que buscam vender seus produtos através de um site.
+
+---
+
+
+
+
+
+
+
+
