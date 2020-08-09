@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <a href="#inovart-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>
 </p>
 
@@ -33,7 +33,7 @@
   <img alt="Frontend" src="" width="100%">
 </a> -->
 
-## :inovart: Tecnologias
+## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
