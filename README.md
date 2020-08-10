@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Inovart" title="Logo Inovart" src="public/assets/images/logo-inovart-github.png" style="background: #333;" />
+  <img alt="Inovart" title="Logo Inovart" src="public/assets/images/inovarte-mobile-logo.png" width="200" />
 </h1>
 
 <h4 align="center">
