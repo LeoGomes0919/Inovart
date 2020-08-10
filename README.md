@@ -29,9 +29,10 @@
 
 <br>
 
-<!-- <p align="center">
-  <img alt="Frontend" src="" width="100%">
-</a> -->
+<p align="center">
+  <img alt="Frontend" src="public/assets/images/github2.png" width="200">
+  <img alt="Frontend" src="public/assets/images/github1.png" width="60%">
+</a>
 
 ## 🚀 Tecnologias
 
