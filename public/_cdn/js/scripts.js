@@ -35,19 +35,19 @@ const ImageGallery = {
     }, 1000)
     ImageGallery.imageContent.src = target.src
   },
-  
+
   next() {
     ImageGallery.index++;
     ImageGallery.imageContent.classList.add('fade');
-      setTimeout(() => {
-        ImageGallery.imageContent.classList.remove('fade');
-      }, 1000);
-    if(ImageGallery.index <= ImageGallery.previews.length) {
-      ImageGallery.imageContent.src = ImageGallery.previews[ImageGallery.index-1].src;
+    setTimeout(() => {
+      ImageGallery.imageContent.classList.remove('fade');
+    }, 1000);
+    if (ImageGallery.index <= ImageGallery.previews.length) {
+      ImageGallery.imageContent.src = ImageGallery.previews[ImageGallery.index - 1].src;
     }
-    if(ImageGallery.index > ImageGallery.previews.length) {
+    if (ImageGallery.index > ImageGallery.previews.length) {
       ImageGallery.index = 1;
-      ImageGallery.imageContent.src = ImageGallery.previews[ImageGallery.index-1].src;
+      ImageGallery.imageContent.src = ImageGallery.previews[ImageGallery.index - 1].src;
     }
   },
   prev() {
@@ -55,9 +55,16 @@ const ImageGallery = {
     setTimeout(() => {
       ImageGallery.imageContent.classList.remove('fade');
     }, 1000);
-    if(ImageGallery.index > 1 && ImageGallery.index <= ImageGallery.previews.length) {
+    if (ImageGallery.index > 1 && ImageGallery.index <= ImageGallery.previews.length) {
       ImageGallery.index--;
-      ImageGallery.imageContent.src = ImageGallery.previews[ImageGallery.index-1].src;
+      ImageGallery.imageContent.src = ImageGallery.previews[ImageGallery.index - 1].src;
     }
   }
 }
+
+function slider() {
+  setInterval(() => {
+    ImageGallery.next();
+  }, 6000)
+}
+slider();

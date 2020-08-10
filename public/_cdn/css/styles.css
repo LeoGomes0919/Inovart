@@ -765,6 +765,11 @@
     padding: 8px 0px;
     transition: background 300ms;
     user-select: none;
+    visibility: hidden;
+  }
+
+  .container-details-photo:hover .controls {
+    visibility: visible;
   }
 
   .container-details-photo .controls.prev {
