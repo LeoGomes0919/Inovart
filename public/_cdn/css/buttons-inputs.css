@@ -11,7 +11,7 @@ input#search {
   padding-right: 32px;
 }
 
-button {
+button, a.button {
   width: 100%;
   border: none;
   outline: none;
@@ -29,6 +29,7 @@ button {
   color: #212529;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
+  margin-right: 8px;
 }
 
 .secondary:hover {
